@@ -1,9 +1,9 @@
 # Wazuh SOC Lab - Security Operations Center Setup & Testing
 
-## 🔒 Overview
+##  Overview
 This repository documents the setup and configuration of a Wazuh Security Operations Center (SOC) environment using Multipass VMs on macOS. The lab includes ethical security testing procedures to validate detection capabilities.
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Environment Setup](#environment-setup)
 - [Wazuh Installation](#wazuh-installation)
 - [Agent Configuration](#agent-configuration)
@@ -12,7 +12,7 @@ This repository documents the setup and configuration of a Wazuh Security Operat
 - [Results](#results)
 - [Lessons Learned](#lessons-learned)
 
-## 🏗️ Environment Setup
+##  Environment Setup
 
 ### Prerequisites
 - macOS with Multipass installed
@@ -65,7 +65,7 @@ sudo systemctl enable wazuh-dashboard
 sudo systemctl start wazuh-dashboard
 ```
 
-## 🔧 Agent Configuration
+##  Agent Configuration
 
 ### Agent Installation (wazuh-soc-agent)
 ```bash
@@ -94,7 +94,7 @@ sudo /var/ossec/bin/manage_agents -a  # Add agent
 
 ## 🔍 Ethical Security Testing
 
-### ⚠️ Disclaimer
+### ⚠ Disclaimer
 All security testing performed in this lab is:
 - Conducted on personally owned systems
 - Performed in an isolated environment
@@ -134,7 +134,7 @@ ssh root@192.168.64.8
 ssh admin@192.168.64.8
 ```
 
-## 📊 Log Analysis
+##  Log Analysis
 
 ### Wazuh Detection Rules
 - **Rule 5710**: Multiple authentication failures
@@ -166,34 +166,34 @@ ssh admin@192.168.64.8
 }
 ```
 
-## 📈 Results
+##  Results
 
 ### Detection Capabilities Validated
-- ✅ SSH brute force detection
-- ✅ Failed authentication logging
-- ✅ Real-time alerting
-- ✅ IP-based correlation
-- ✅ Threshold-based triggers
+-  SSH brute force detection
+-  Failed authentication logging
+-  Real-time alerting
+-  IP-based correlation
+-  Threshold-based triggers
 
 ### Key Metrics
 - **Detection Time**: < 30 seconds
 - **Alert Accuracy**: 100% for tested scenarios
 - **False Positives**: 0 during testing
 
-## 🎓 Lessons Learned
+##  Lessons Learned
 
 1. **Wazuh Configuration**: Proper agent-manager communication is crucial
 2. **Rule Tuning**: Default rules effectively detect common attacks
 3. **Monitoring**: Real-time alerts provide immediate threat visibility
 4. **Documentation**: Thorough logging aids in incident response
 
-## 🔗 Additional Resources
+##  Additional Resources
 
 - [Wazuh Documentation](https://documentation.wazuh.com/)
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
 - [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
 
-## ⚖️ Legal & Ethical Considerations
+## ⚖ Legal & Ethical Considerations
 
 This lab was created for educational purposes only. All testing was performed on personally owned systems in an isolated environment. Users should:
 
@@ -202,11 +202,11 @@ This lab was created for educational purposes only. All testing was performed on
 - Comply with local laws and regulations
 - Use knowledge gained for defensive purposes only
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to submit issues, fork the repository, and create pull requests for improvements.
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
