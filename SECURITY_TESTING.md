@@ -1,24 +1,24 @@
 # Ethical Security Testing Guide
 
-## ⚠️ Important Disclaimer
+##  Important Disclaimer
 
 This guide is for educational purposes only. All testing must be performed on systems you own or have explicit written permission to test. Unauthorized security testing is illegal and unethical.
 
 ## Legal and Ethical Requirements
 
 ### Before You Begin
-- ✅ Ensure you own all systems being tested
-- ✅ Test only in isolated environments
-- ✅ Document all activities
-- ✅ Follow responsible disclosure practices
-- ✅ Comply with local laws and regulations
+-  Ensure you own all systems being tested
+-  Test only in isolated environments
+-  Document all activities
+-  Follow responsible disclosure practices
+-  Comply with local laws and regulations
 
 ### Prohibited Activities
-- ❌ Testing systems you don't own
-- ❌ Unauthorized access attempts
-- ❌ Disrupting production systems
-- ❌ Data theft or exfiltration
-- ❌ Malicious intent
+-  Testing systems you don't own
+-  Unauthorized access attempts
+-  Disrupting production systems
+-  Data theft or exfiltration
+-  Malicious intent
 
 ## Testing Environment Setup
 
